@@ -31,12 +31,12 @@ barostatInterval = 25
 
 steps = 1000000
 equilibrationSteps = 1000
-platform = Platform.getPlatformByName('OpenCL')
-platformProperties = {'Precision': 'single'}
-dcdReporter = DCDReporter('run.dcd', 10000)
-dataReporter = StateDataReporter('run.log', 1000, totalSteps=steps,
+platform = Platform.getPlatformByName('CUDA')
+platformProperties = {'Precision': 'mixed'}
+dcdReporter = DCDReporter('run1.dcd', 10000)
+dataReporter = StateDataReporter('run1.log', 1000, totalSteps=steps,
     step=True, speed=True, progress=True, potentialEnergy=True, temperature=True, separator='\t')
-checkpointReporter = CheckpointReporter('checkpoint.chk', 10000)
+checkpointReporter = CheckpointReporter('run1_checkpoint.chk', 10000)
 
 # Prepare the Simulation
 
@@ -70,4 +70,4 @@ simulation.step(steps)
 
 # Write file with final simulation state
 
-simulation.saveState("run.xml")
+simulation.saveState("run1.xml")
