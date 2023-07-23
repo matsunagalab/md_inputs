@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -p all
-#SBATCH -J WT
+#SBATCH -J R96H
 #SBATCH -n 1  #num of total mpi processes
 #SBATCH -c 4  #num of threads per mpi processes
 #SBATCH -o run.log
