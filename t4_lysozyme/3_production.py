@@ -21,28 +21,18 @@ pressure = 1.0*unit.atmospheres
 barostatInterval = 25
 
 # Simulation options
-equilibrationSteps = 100000
+#steps = 250000000
+steps = 100000
 # Linux with GPU
 platform = mm.openmm.Platform.getPlatformByName('CUDA')
 platformProperties = {'Precision': 'mixed'}
 # Mac
 #platform = mm.openmm.Platform.getPlatformByName('OpenCL')
 #platformProperties = {'Precision': 'single'}
-dcdReporter = app.DCDReporter('2_equilibration.dcd', 1000)
-dataReporter = app.StateDataReporter(sys.stdout, 1000, totalSteps=equilibrationSteps,
+dcdReporter = app.DCDReporter('3_production.dcd', 250)
+dataReporter = app.StateDataReporter(sys.stdout, 250, totalSteps=steps,
     step=True, speed=True, progress=True, potentialEnergy=True, temperature=True, separator='\t')
 #checkpointReporter = CheckpointReporter('run1_checkpoint.chk', 10000)
-
-# Positional restraints
-restraint = mm.openmm.CustomExternalForce('k*periodicdistance(x, y, z, x0, y0, z0)^2')
-system.addForce(restraint)
-restraint.addGlobalParameter('k', 100.0*unit.kilojoules_per_mole/(unit.nanometer*unit.nanometer))
-restraint.addPerParticleParameter('x0')
-restraint.addPerParticleParameter('y0')
-restraint.addPerParticleParameter('z0')
-for atom in pdb.topology.atoms():
-    if atom.name == 'CA':
-        restraint.addParticle(atom.index, pdb.positions[atom.index])
 
 # Prepare simulation object
 print('Building system...')
@@ -50,18 +40,17 @@ system.addForce(mm.openmm.MonteCarloBarostat(pressure, temperature, barostatInte
 integrator = mm.openmm.LangevinMiddleIntegrator(temperature, friction, dt)
 integrator.setConstraintTolerance(constraintTolerance)
 simulation = app.Simulation(pdb.topology, system, integrator, platform, platformProperties)
-simulation.context.setPositions(pdb.positions)
+#simulation.context.setPositions(pdb.positions)
 
-# Minimize
-print('Performing energy minimization...')
-simulation.minimizeEnergy()
+# Load the state
+simulation.loadState('2_equilibration.xml')
 
-# Equilibrate
-print('Equilibrating...')
-simulation.context.setVelocitiesToTemperature(temperature)
+# Production
+print('Production...')
 simulation.reporters.append(dcdReporter)
 simulation.reporters.append(dataReporter)
-simulation.step(equilibrationSteps)
+simulation.currentStep = 0
+simulation.step(steps)
 
-simulation.saveState("2_equilibration.xml")
+simulation.saveState("3_production.xml")
 
