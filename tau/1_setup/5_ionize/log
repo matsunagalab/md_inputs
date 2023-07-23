@@ -1,0 +1,95 @@
+Info) VMD for MACOSXARM64, version 1.9.4a55 (October 19, 2021)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 8 CPUs, ISA dispatch enabled.
+1.5
+../4_solvate/wbox.psf
+../4_solvate/wbox.pdb
+Autoionize) Reading ../4_solvate/wbox.psf/../4_solvate/wbox.pdb...
+psfgen) clearing structure, preserving topology and aliases
+psfgen) reading structure from psf file ../4_solvate/wbox.psf
+psfgen) reading coordinates, insertion codes, and element symbols from pdb file ../4_solvate/wbox.pdb
+psfplugin) Detected a Charmm PSF file
+Info) Using plugin psf for structure file ../4_solvate/wbox.psf
+Info) Analyzing structure ...
+Info)    Atoms: 416589
+Info)    Bonds: 281646
+Info)    Angles: 156163  Dihedrals: 30830  Impropers: 2060  Cross-terms: 730
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 135763
+Info)    Waters: 135033
+Info)    Segments: 40
+Info)    Fragments: 135043   Protein: 10   Nucleic: 0
+Info) Using plugin pdb for coordinates from file ../4_solvate/wbox.pdb
+Info) Finished with coordinate file ../4_solvate/wbox.pdb.
+Autoionize) System net charge before adding ions: 50.00000908970833e.
+Autoionize) Number of ions required for neutralizing the system: 0 SOD and 50 CLA.
+Autoionize) Desired salt concentration: 0.15 mol/L.
+Autoionize) Ions to be placed:
+Autoionize)   379 SOD
+Autoionize)   429 CLA
+Autoionize) Required min distance from molecule: 5A.
+Autoionize) Required min distance between ions: 5A.
+Autoionize) Output file prefix 'ionized'.
+Autoionize) Ions will be added to segname ION.
+Autoionize) Obtained positions for 808 ions.
+Autoionize) Tagged 808 water molecules for deletion.
+Autoionize) Deleted 808 water molecules.
+Autoionize) Reading CHARMM topology file...
+psfgen) reading topology file /Applications/VMD 1.9.4.app/Contents/vmd/plugins/noarch/tcl/readcharmmtop1.2/toppar_water_ions_namd.str
+
+psfgen)  Toplogy and parameter information for water and ions.
+psfgen) 
+psfgen) reading topology from stream file
+psfgen)  Topology for water and ions
+psfgen) 
+psfgen) Created by CHARMM version 31 1
+psfgen) skipping parameters in stream file
+psfgen)  Parameters for water and ions
+psfgen) 
+psfgen) skipping parameters in stream file
+psfgen)  NBFix between carboxylate and sodium
+psfgen) 
+psfgen) building segment ION
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+Autoionize) Randomizing ion positions...
+Autoionize) Assigning ion coordinates...
+psfgen) Info: writing psf file ionized.psf
+psfgen) total of 414973 atoms
+psfgen) total of 280030 bonds
+psfgen) total of 155355 angles
+psfgen) total of 30830 dihedrals
+psfgen) total of 2060 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 730 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file ionized.pdb
+psfgen) Info: pdb file complete.
+Autoionize) Loading new system with added ions...
+psfplugin) Detected a Charmm PSF file
+Info) Using plugin psf for structure file ionized.psf
+Info) Analyzing structure ...
+Info)    Atoms: 414973
+Info)    Bonds: 280030
+Info)    Angles: 155355  Dihedrals: 30830  Impropers: 2060  Cross-terms: 730
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 135763
+Info)    Waters: 134225
+Info)    Segments: 41
+Info)    Fragments: 135043   Protein: 10   Nucleic: 0
+Info) Using plugin pdb for coordinates from file ionized.pdb
+Info) Finished with coordinate file ionized.pdb.
+Info) Opened coordinate file ionized.pdb for writing.
+Info) Finished with coordinate file ionized.pdb.
+Autoionize) System net charge after adding ions: 9.08970832824707e-6e.
+Autoionize) All done.
+Info) VMD for MACOSXARM64, version 1.9.4a55 (October 19, 2021)
+Info) Exiting normally.
+vmd > 
