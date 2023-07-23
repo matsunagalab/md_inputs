@@ -33,10 +33,16 @@ dataReporter = app.StateDataReporter(sys.stdout, 1000, totalSteps=equilibrationS
     step=True, speed=True, progress=True, potentialEnergy=True, temperature=True, separator='\t')
 #checkpointReporter = CheckpointReporter('run1_checkpoint.chk', 10000)
 
+# Prepare simulation object
+print('Building system...')
+system.addForce(mm.openmm.MonteCarloBarostat(pressure, temperature, barostatInterval))
+integrator = mm.openmm.LangevinMiddleIntegrator(temperature, friction, dt)
+integrator.setConstraintTolerance(constraintTolerance)
+
 # Positional restraints
 restraint = mm.openmm.CustomExternalForce('k*periodicdistance(x, y, z, x0, y0, z0)^2')
 system.addForce(restraint)
-restraint.addGlobalParameter('k', 100.0*unit.kilojoules_per_mole/(unit.nanometer*unit.nanometer))
+restraint.addGlobalParameter('k', 10.0*unit.kilojoules_per_mole/(unit.nanometer*unit.nanometer))
 restraint.addPerParticleParameter('x0')
 restraint.addPerParticleParameter('y0')
 restraint.addPerParticleParameter('z0')
@@ -44,11 +50,6 @@ for atom in pdb.topology.atoms():
     if atom.name == 'CA':
         restraint.addParticle(atom.index, pdb.positions[atom.index])
 
-# Prepare simulation object
-print('Building system...')
-system.addForce(mm.openmm.MonteCarloBarostat(pressure, temperature, barostatInterval))
-integrator = mm.openmm.LangevinMiddleIntegrator(temperature, friction, dt)
-integrator.setConstraintTolerance(constraintTolerance)
 simulation = app.Simulation(pdb.topology, system, integrator, platform, platformProperties)
 simulation.context.setPositions(pdb.positions)
 
@@ -63,5 +64,6 @@ simulation.reporters.append(dcdReporter)
 simulation.reporters.append(dataReporter)
 simulation.step(equilibrationSteps)
 
+system.removeForce(system.getNumForces() - 1)
 simulation.saveState("2_equilibration.xml")
 

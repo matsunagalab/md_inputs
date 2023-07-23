@@ -29,8 +29,8 @@ platformProperties = {'Precision': 'mixed'}
 # Mac
 #platform = mm.openmm.Platform.getPlatformByName('OpenCL')
 #platformProperties = {'Precision': 'single'}
-dcdReporter = app.DCDReporter('3_production.dcd', 250)
-dataReporter = app.StateDataReporter(sys.stdout, 250, totalSteps=steps,
+dcdReporter = app.DCDReporter('3_production.dcd', 2500)
+dataReporter = app.StateDataReporter(sys.stdout, 2500, totalSteps=steps,
     step=True, speed=True, progress=True, potentialEnergy=True, temperature=True, separator='\t')
 #checkpointReporter = CheckpointReporter('run1_checkpoint.chk', 10000)
 
