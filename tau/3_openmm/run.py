@@ -37,11 +37,11 @@ barostatInterval = 25
 
 # Simulation Options
 
-steps = 1000
+steps = 100000
 equilibrationSteps = 10000
 platform = Platform.getPlatformByName('CUDA')
 platformProperties = {'Precision': 'mixed'}
-dcdReporter = DCDReporter('run.dcd', 100)
+dcdReporter = DCDReporter('run.dcd', 500)
 dataReporter = StateDataReporter('run.log', 100, totalSteps=steps,
     step=True, time=True, speed=True, progress=True, elapsedTime=True,
     remainingTime=True, potentialEnergy=True, kineticEnergy=True, totalEnergy=True,
@@ -56,6 +56,23 @@ positions = pdb.positions
 system = psf.createSystem(params, nonbondedMethod=nonbondedMethod, nonbondedCutoff=nonbondedCutoff,
     constraints=constraints, rigidWater=rigidWater, ewaldErrorTolerance=ewaldErrorTolerance, hydrogenMass=hydrogenMass)
 system.addForce(MonteCarloBarostat(pressure, temperature, barostatInterval))
+
+# Positional restraints
+
+restraint = openmm.CustomExternalForce('k*periodicdistance(x, y, z, x0, y0, z0)^2')
+system.addForce(restraint)
+#restraint.addGlobalParameter('k', 10.0*kilojoules_per_mole/(nanometers*nanometers))
+restraint.addPerParticleParameter('k')
+restraint.addPerParticleParameter('x0')
+restraint.addPerParticleParameter('y0')
+restraint.addPerParticleParameter('z0')
+for atom in pdb.topology.atoms():
+    if atom.name == 'CA':
+        restraint.addParticle(atom.index, [100.0*kilojoules_per_mole/(nanometers*nanometers), 
+              pdb.positions[atom.index][0], pdb.positions[atom.index][1], pdb.positions[atom.index][2]] )
+
+# Create simulation object
+
 integrator = LangevinMiddleIntegrator(temperature, friction, dt)
 integrator.setConstraintTolerance(constraintTolerance)
 simulation = Simulation(topology, system, integrator, platform, platformProperties)
@@ -86,7 +103,7 @@ print('Simulating...')
 #simulation.reporters.append(dataReporter)
 #simulation.reporters.append(checkpointReporter)
 simulation.currentStep = 0
-#simulation.step(steps)
+simulation.step(steps)
 
 # Write file with final simulation state
 
