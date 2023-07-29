@@ -21,7 +21,7 @@ pressure = 1.0*unit.atmospheres
 barostatInterval = 25
 
 # Simulation options
-equilibrationSteps = 100000
+steps = 100000
 # Linux with GPU
 platform = mm.openmm.Platform.getPlatformByName('CUDA')
 platformProperties = {'Precision': 'mixed'}
@@ -29,7 +29,7 @@ platformProperties = {'Precision': 'mixed'}
 #platform = mm.openmm.Platform.getPlatformByName('OpenCL')
 #platformProperties = {'Precision': 'single'}
 dcdReporter = app.DCDReporter('2_equilibration.dcd', 1000)
-dataReporter = app.StateDataReporter(sys.stdout, 1000, totalSteps=equilibrationSteps,
+dataReporter = app.StateDataReporter(sys.stdout, 1000, totalSteps=steps,
     step=True, speed=True, progress=True, potentialEnergy=True, temperature=True, separator='\t')
 #checkpointReporter = CheckpointReporter('run1_checkpoint.chk', 10000)
 
@@ -64,7 +64,7 @@ print('Equilibrating...')
 simulation.context.setVelocitiesToTemperature(temperature)
 simulation.reporters.append(dcdReporter)
 simulation.reporters.append(dataReporter)
-simulation.step(equilibrationSteps)
+simulation.step(steps)
 
 #system.removeForce(system.getNumForces() - 1)
 simulation.saveState("2_equilibration.xml")
