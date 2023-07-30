@@ -4,13 +4,10 @@ from openmm.unit import *
 import numpy as np
 import sys
 
-# Input Files
+# Load the system
 
 psf = CharmmPsfFile('../1_setup/5_ionize/ionized.psf')
 pdb = PDBFile('../1_setup/5_ionize/ionized.pdb')
-#crd = CharmmPdbFile('../1_setup/5_ionize/ionized.crd')
-params = CharmmParameterSet('../toppar/top_all36_prot.rtf', '../toppar/par_all36m_prot.prm', '../toppar/toppar_water_ions.str')
-#params = CharmmParameterSet('par_all36m_prot.prm')
 
 xyz = np.array(pdb.positions/nanometer)
 xyz[:,0] -= np.amin(xyz[:,0])
@@ -18,23 +15,12 @@ xyz[:,1] -= np.amin(xyz[:,1])
 xyz[:,2] -= np.amin(xyz[:,2])
 pdb.positions = xyz*nanometer
 
-# {-67.367 -55.45 -250.0} {67.701 56.818 33.927}
-# 135.068   112.268   283.927
-#psf.topology.setPeriodicBoxVectors(pdb.topology.getPeriodicBoxVectors())
-psf.setBox(13.5068*nanometer, 11.2268*nanometer,  28.3927*nanometer)
-
-# System Configuration
-
-nonbondedMethod = PME
-nonbondedCutoff = 1.0*nanometer
-ewaldErrorTolerance = 0.0005
-constraints = HBonds
-rigidWater = True
-constraintTolerance = 0.000001
-hydrogenMass = 1.5*amu
+with open('../3_equilibrate/system.xml', 'r') as f:
+    system = openmm.XmlSerializer.deserialize(f.read())
 
 # Integration Options
 
+constraintTolerance = 0.000001
 dt = 0.004*picoseconds
 temperature = 300*kelvin
 friction = 1.0/picosecond
@@ -55,48 +41,52 @@ dataReporter = StateDataReporter(sys.stdout, 2500, totalSteps=steps,
 
 # Prepare the Simulation
 
-print('Building system...')
-topology = pdb.topology
-positions = pdb.positions
-system = psf.createSystem(params, nonbondedMethod=nonbondedMethod, nonbondedCutoff=nonbondedCutoff,
-    constraints=constraints, rigidWater=rigidWater, ewaldErrorTolerance=ewaldErrorTolerance, hydrogenMass=hydrogenMass)
-with open("system.xml", mode="w") as file:
-    file.write(XmlSerializer.serialize(system))
 system.addForce(MonteCarloBarostat(pressure, temperature, barostatInterval))
 
 # Positional restraints
 
 restraint = openmm.CustomExternalForce('k*periodicdistance(x, y, z, x0, y0, z0)^2')
 system.addForce(restraint)
-#restraint.addGlobalParameter('k', 10.0*kilojoules_per_mole/(nanometer**2))
 restraint.addPerParticleParameter('k')
 restraint.addPerParticleParameter('x0')
 restraint.addPerParticleParameter('y0')
 restraint.addPerParticleParameter('z0')
-for atom in pdb.topology.atoms():
-    if atom.name == 'CA':
-        restraint.addParticle(atom.index, [10.0*kilocalories_per_mole/(angstrom**2), 
+for atom in psf.topology.atoms():
+    if atom.name == 'CA' and atom.residue.chain.id != 'PROI':
+        restraint.addParticle(atom.index, [1.0*kilocalories_per_mole/(angstrom**2), 
               pdb.positions[atom.index][0], pdb.positions[atom.index][1], pdb.positions[atom.index][2]] )
+
+# COM restraint
+
+indices_PROI = [atom.index for atom in psf.topology.atoms() if atom.name == 'CA' and atom.residue.chain.id == 'PROI']
+z_coords = pdb.positions[indices_PROI]._value[:, 2]
+z0 = np.mean(z_coords) * nanometer
+com = CustomCentroidBondForce(1, 'k*(z1-z0)^2')
+k = 73.0 * kilocalories_per_mole / (angstrom**2)
+com.addGlobalParameter('k', k)
+com.addGlobalParameter('z0', z0)
+group_index = com.addGroup(indices_PROI)
+com.addBond([group_index], [])
+system.addForce(com)
 
 # Create simulation object
 
 integrator = LangevinMiddleIntegrator(temperature, friction, dt)
 integrator.setConstraintTolerance(constraintTolerance)
-integrator.setRandomNumberSeed(771)
-simulation = Simulation(topology, system, integrator, platform, platformProperties)
-simulation.context.setPositions(positions)
-with open("integrator.xml", mode="w") as file:
-    file.write(XmlSerializer.serialize(integrator))
+simulation = Simulation(pdb.topology, system, integrator, platform, platformProperties)
+#simulation.context.setPositions(pdb.positions)
 
-# Minimize and Equilibrate
+# Load the state
+
+simulation.loadState('../3_equilibrate/run.xml')
+
+# Equilibrate
 
 simulation.reporters.append(dcdReporter)
 simulation.reporters.append(dataReporter)
 
-print('Performing energy minimization...')
-simulation.minimizeEnergy()
-print('Equilibrating...')
-simulation.context.setVelocitiesToTemperature(temperature)
+print('Continued equilibrating...')
+#simulation.context.setVelocitiesToTemperature(temperature)
 simulation.step(steps)
 
 # Simulate
@@ -110,6 +100,5 @@ simulation.currentStep = 0
 
 # Write file with final simulation state
 
-#system.removeForce(system.getNumForces() - 1)
 simulation.saveState("run.xml")
 

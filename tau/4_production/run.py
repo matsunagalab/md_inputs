@@ -15,7 +15,7 @@ xyz[:,1] -= np.amin(xyz[:,1])
 xyz[:,2] -= np.amin(xyz[:,2])
 pdb.positions = xyz*nanometer
 
-with open('../3_equilibrate/system.xml', 'r') as f:
+with open('../2_equilibrate/system.xml', 'r') as f:
     system = openmm.XmlSerializer.deserialize(f.read())
 
 # Integration Options
@@ -78,7 +78,7 @@ simulation = Simulation(pdb.topology, system, integrator, platform, platformProp
 
 # Load the state
 
-simulation.loadState('../4_equilibrate/run.xml')
+simulation.loadState('../3_equilibrate/run.xml')
 
 # Equilibrate
 
