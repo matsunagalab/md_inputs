@@ -29,7 +29,7 @@ barostatInterval = 25
 
 # Simulation Options
 
-steps = 100000
+steps = 250000
 platform = Platform.getPlatformByName('CUDA')
 platformProperties = {'Precision': 'mixed'}
 dcdReporter = DCDReporter('run.dcd', 2500)
@@ -86,7 +86,7 @@ simulation.reporters.append(dcdReporter)
 simulation.reporters.append(dataReporter)
 
 print('Continued equilibrating...')
-simulation.context.setVelocitiesToTemperature(temperature)
+#simulation.context.setVelocitiesToTemperature(temperature)
 simulation.step(steps)
 
 # Simulate
