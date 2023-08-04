@@ -100,6 +100,8 @@ ncycle = int(steps / 250)
 max_z = 12.0 * nanometer
 delta_z = max_z / ncycle
 
+print(k.in_units_of(kilojoules_per_mole / nanometer**2))
+print(z0)
 for i in range(ncycle):
     simulation.context.setParameter('z0', z0 - delta_z * (i+1))
     simulation.step(250)
