@@ -21,8 +21,8 @@ pressure = 1.0*unit.atmospheres
 barostatInterval = 25
 
 # Simulation options
-#steps = 250000000
-steps = 100000
+steps = 2500000000 # 10 microseconds
+#steps = 100000 # 400 picoseconds
 # Linux with GPU
 platform = mm.openmm.Platform.getPlatformByName('CUDA')
 platformProperties = {'Precision': 'mixed'}
