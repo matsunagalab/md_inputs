@@ -1,0 +1,17 @@
+;
+;	File 'topol_Protein.itp' was generated
+;	By user: yasu (501)
+;	On host: cactus.local
+;	At date: Tue Apr 28 17:01:18 2015
+;
+;	This is a include topology file
+;
+;	Created by:
+;	GROMACS:      gmx pdb2gmx, VERSION 5.0.4
+;	Executable:   /opt/gromacs/bin/gmx
+;	Library dir:  /opt/gromacs/share/gromacs/top
+;	Command line:
+;	  gmx pdb2gmx -f ../3_attach_Dye/setup.pdb
+;	Force field was read from current directory or a relative path - path added.
+;
+
