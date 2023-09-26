@@ -1,0 +1,32 @@
+[INPUT]
+grotopfile      = ../5_genion/topol.top
+grocrdfile      = ../5_genion/ions.gro
+groreffile      = ../5_genion/ions.gro
+
+[ENERGY]
+forcefield      = GROAMBER
+
+[OUTPUT]
+dcdfile         = em.dcd
+rstfile         = em.rst
+    
+[MINIMIZE]
+nsteps          = 5000     # number of steps
+eneout_period   = 500      # energy output period
+crdout_period   = 500      # coordinates output period
+rstout_period   = 5000     # restart output period
+
+[BOUNDARY]
+type            = PBC      # [PBC,NOBC]
+box_size_x      = 100.22     # box size (x) in [PBC]
+box_size_y      = 100.22     # box size (y) in [PBC]
+box_size_z      = 100.22     # box size (z) in [PBC]
+
+[SELECTION]
+group1          = rno:4-34 and heavy
+
+[RESTRAINTS]
+nfunctions      = 1     # number of functions
+function1       = POSI  # restraint function type
+constant1       = 10.0  # force constant
+select_index1   = 1     # restrained group
