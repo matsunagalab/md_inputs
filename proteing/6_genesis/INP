@@ -1,7 +1,7 @@
 [INPUT]
-grotopfile      = ../5_genion/topol.top
-grocrdfile      = ../5_genion/ions.gro
-groreffile      = ../5_genion/ions.gro
+grotopfile      = topol.top
+grocrdfile      = ions.gro
+groreffile      = ions.gro
 
 [ENERGY]
 forcefield      = GROAMBER
@@ -9,7 +9,7 @@ forcefield      = GROAMBER
 [OUTPUT]
 dcdfile         = em.dcd
 rstfile         = em.rst
-    
+
 [MINIMIZE]
 nsteps          = 5000     # number of steps
 eneout_period   = 500      # energy output period
