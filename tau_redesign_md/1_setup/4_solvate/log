@@ -1,0 +1,134 @@
+Info) VMD for MACOSXARM64, version 1.9.4a55 (October 19, 2021)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 10 CPUs, ISA dispatch enabled.
+1.7
+../3_psfgen/protein.psf
+../3_psfgen/protein.pdb
+Info) generating solute plus one replica of water...
+psfgen) reading structure from psf file ../3_psfgen/protein.psf
+psfgen) reading coordinates, insertion codes, and element symbols from pdb file ../3_psfgen/protein.pdb
+psfgen) reading structure from psf file /Applications/VMD 1.9.4.app/Contents/vmd/plugins/noarch/tcl/solvate1.7/wat.psf
+psfgen) reading coordinates, insertion codes, and element symbols from pdb file /Applications/VMD 1.9.4.app/Contents/vmd/plugins/noarch/tcl/solvate1.7/wat.pdb
+psfgen) psf file does not contain cross-terms
+psfgen) Info: writing psf file combine.psf
+psfgen) total of 33458 atoms
+psfgen) total of 24217 bonds
+psfgen) total of 28972 angles
+psfgen) total of 15150 dihedrals
+psfgen) total of 1015 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 365 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file combine.pdb
+psfgen) Info: pdb file complete.
+psfplugin) Detected a Charmm PSF file
+Info) Using plugin psf for structure file combine.psf
+Info) Analyzing structure ...
+Info)    Atoms: 33458
+Info)    Bonds: 24217
+Info)    Angles: 28972  Dihedrals: 15150  Impropers: 1015  Cross-terms: 365
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 9626
+Info)    Waters: 9261
+Info)    Segments: 6
+Info)    Fragments: 9266   Protein: 5   Nucleic: 0
+Info) Using plugin pdb for coordinates from file combine.pdb
+Info) Finished with coordinate file combine.pdb.
+Info) generating water residue lists...
+Info) single water residue type, creating residue list...
+Info) replicating 8 water segments, 2 by 2 by 2
+psfgen) reading topology file /Applications/VMD 1.9.4.app/Contents/vmd/plugins/noarch/tcl/solvate1.7/wat.top
+
+psfgen) >>>>>> Combined CHARMM All-Hydrogen Topology File for <<<<<<<<<
+psfgen) >>>>>>>>> CHARMM22 Proteins and CHARMM27 Lipids <<<<<<<<<<
+psfgen) from
+psfgen) >>>>>>>>CHARMM22 All-Hydrogen Topology File for Proteins <<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>> August 1999 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen) >>>>>>> Direct comments to Alexander D. MacKerell Jr. <<<<<<<<<
+psfgen) >>>>>> 410-706-7442 or email: alex,mmiris.ab.umd.edu  <<<<<<<<<
+psfgen) and
+psfgen)   \\\\\\\ CHARMM27 All-Hydrogen Lipid Topology File ///////
+psfgen)   \\\\\\\\\\\\\\\\\\ Developmental /////////////////////////
+psfgen) 		Alexander D. MacKerell Jr.
+psfgen) 			August 1999
+psfgen)  All comments to ADM jr.  email: alex,mmiris.ab.umd.edu
+psfgen) 		telephone: 410-706-7442
+psfgen) 
+psfgen) Created by CHARMM version 27 1
+psfgen) building segment WT1
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment WT2
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment WT3
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment WT4
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment WT5
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment WT6
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment WT7
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment WT8
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) Info: writing psf file wbox.psf
+psfgen) total of 95399 atoms
+psfgen) total of 65511 bonds
+psfgen) total of 40358 angles
+psfgen) total of 15150 dihedrals
+psfgen) total of 1015 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 365 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file wbox.pdb
+psfgen) Info: pdb file complete.
+psfgen) clearing structure, preserving topology and aliases
+psfplugin) Detected a Charmm PSF file
+Info) Using plugin psf for structure file wbox.psf
+Info) Analyzing structure ...
+Info)    Atoms: 95399
+Info)    Bonds: 65511
+Info)    Angles: 40358  Dihedrals: 15150  Impropers: 1015  Cross-terms: 365
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 30273
+Info)    Waters: 29908
+Info)    Segments: 13
+Info)    Fragments: 29913   Protein: 5   Nucleic: 0
+Info) Using plugin pdb for coordinates from file wbox.pdb
+Info) Finished with coordinate file wbox.pdb.
+Info) Opened coordinate file wbox.pdb for writing.
+Info) Finished with coordinate file wbox.pdb.
+Info) Extra structure overlap safety check...
+Info) Solvate completed successfully.
+Info) VMD for MACOSXARM64, version 1.9.4a55 (October 19, 2021)
+Info) Exiting normally.
+vmd > 
