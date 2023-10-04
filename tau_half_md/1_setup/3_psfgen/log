@@ -1,0 +1,2084 @@
+Info) VMD for MACOSXARM64, version 1.9.4a55 (October 19, 2021)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 10 CPUs, ISA dispatch enabled.
+2.0
+psfgen) clearing structure, preserving topology and aliases
+psfgen) reading topology file ../toppar/top_all36_prot.rtf
+
+psfgen) >>>>>>>>CHARMM36 All-Hydrogen Topology File for Proteins <<<<<<
+psfgen) >>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>>>>> May 2011 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen)  All comments to the CHARMM web site: www.charmm.org
+psfgen)              parameter set discussion forum
+psfgen) 
+psfgen) Created by CHARMM version 36 1
+psfgen) cross-term entries present in topology definitions
+psfgen) building segment PROA
+psfgen) reading residues from pdb file ../2_modpdb/proa.pdb
+psfgen) extracted 73 residues from pdb file
+psfgen) setting patch for first residue to ACE
+psfgen) setting patch for last residue to CT3
+Info: generating structure...
+psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) Info: skipping bond C-N at end of segment.
+psfgen) Info: skipping improper C-CA-N-O at end of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+psfgen) Info: skipping conformation CA-C-N-CA at end of segment.
+psfgen) Info: skipping conformation N-CA-C-O at end of segment.
+psfgen) Info: skipping conformation N-CA-C-N at end of segment.
+segment complete.
+psfgen) building segment PROC
+psfgen) reading residues from pdb file ../2_modpdb/proc.pdb
+psfgen) extracted 73 residues from pdb file
+psfgen) setting patch for first residue to ACE
+psfgen) setting patch for last residue to CT3
+Info: generating structure...
+psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) Info: skipping bond C-N at end of segment.
+psfgen) Info: skipping improper C-CA-N-O at end of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+psfgen) Info: skipping conformation CA-C-N-CA at end of segment.
+psfgen) Info: skipping conformation N-CA-C-O at end of segment.
+psfgen) Info: skipping conformation N-CA-C-N at end of segment.
+segment complete.
+psfgen) building segment PROE
+psfgen) reading residues from pdb file ../2_modpdb/proe.pdb
+psfgen) extracted 73 residues from pdb file
+psfgen) setting patch for first residue to ACE
+psfgen) setting patch for last residue to CT3
+Info: generating structure...
+psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) Info: skipping bond C-N at end of segment.
+psfgen) Info: skipping improper C-CA-N-O at end of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+psfgen) Info: skipping conformation CA-C-N-CA at end of segment.
+psfgen) Info: skipping conformation N-CA-C-O at end of segment.
+psfgen) Info: skipping conformation N-CA-C-N at end of segment.
+segment complete.
+psfgen) building segment PROG
+psfgen) reading residues from pdb file ../2_modpdb/prog.pdb
+psfgen) extracted 73 residues from pdb file
+psfgen) setting patch for first residue to ACE
+psfgen) setting patch for last residue to CT3
+Info: generating structure...
+psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) Info: skipping bond C-N at end of segment.
+psfgen) Info: skipping improper C-CA-N-O at end of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+psfgen) Info: skipping conformation CA-C-N-CA at end of segment.
+psfgen) Info: skipping conformation N-CA-C-O at end of segment.
+psfgen) Info: skipping conformation N-CA-C-N at end of segment.
+segment complete.
+psfgen) building segment PROI
+psfgen) reading residues from pdb file ../2_modpdb/proi.pdb
+psfgen) extracted 73 residues from pdb file
+psfgen) setting patch for first residue to ACE
+psfgen) setting patch for last residue to CT3
+Info: generating structure...
+psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) Info: skipping bond C-N at end of segment.
+psfgen) Info: skipping improper C-CA-N-O at end of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+psfgen) Info: skipping conformation CA-C-N-CA at end of segment.
+psfgen) Info: skipping conformation N-CA-C-O at end of segment.
+psfgen) Info: skipping conformation N-CA-C-N at end of segment.
+segment complete.
+psfgen) reading coordinates from pdb file ../2_modpdb/proa.pdb for segment PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLN:307	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:307	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:307	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ILE:308	  PROA
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:308	  PROA
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:308	  PROA
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:308	  PROA
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:308	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 VAL:309	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 TYR:310	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 TYR:310	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:311	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:311	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:311	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:311	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:311	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:312	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:312	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:312	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 VAL:313	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ASP:314	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:314	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LEU:315	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:315	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 SER:316	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:316	  PROA
+psfgen) Warning: failed to set coordinate for atom HG	 SER:316	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:317	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:317	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:317	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:317	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:317	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 VAL:318	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 THR:319	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 SER:320	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:320	  PROA
+psfgen) Warning: failed to set coordinate for atom HG	 SER:320	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:321	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:321	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:321	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:321	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:321	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 CYS:322	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 CYS:322	  PROA
+psfgen) Warning: failed to set coordinate for atom HG	 CYS:322	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLY:323	  PROA
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:323	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 SER:324	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:324	  PROA
+psfgen) Warning: failed to set coordinate for atom HG	 SER:324	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LEU:325	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:325	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLY:326	  PROA
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:326	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ASN:327	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:327	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ILE:328	  PROA
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:328	  PROA
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:328	  PROA
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:328	  PROA
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:328	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 HSD:329	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:329	  PROA
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:329	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 HSD:330	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:330	  PROA
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:330	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:331	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:331	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:331	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:331	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:331	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:332	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:332	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:332	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLY:333	  PROA
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:333	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLY:334	  PROA
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:334	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLY:335	  PROA
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:335	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLN:336	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:336	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:336	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 VAL:337	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLU:338	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:338	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:338	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 VAL:339	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:340	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:340	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:340	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:340	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:340	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 SER:341	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:341	  PROA
+psfgen) Warning: failed to set coordinate for atom HG	 SER:341	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLU:342	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:342	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:342	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:343	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:343	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:343	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:343	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:343	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LEU:344	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:344	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ASP:345	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:345	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 PHE:346	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 PHE:346	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:347	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:347	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:347	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:347	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:347	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ASP:348	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:348	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ARG:349	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 ARG:349	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 ARG:349	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 ARG:349	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 VAL:350	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLN:351	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:351	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:351	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 SER:352	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:352	  PROA
+psfgen) Warning: failed to set coordinate for atom HG	 SER:352	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:353	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:353	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:353	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:353	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:353	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ILE:354	  PROA
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:354	  PROA
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:354	  PROA
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:354	  PROA
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:354	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLY:355	  PROA
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:355	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 SER:356	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:356	  PROA
+psfgen) Warning: failed to set coordinate for atom HG	 SER:356	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LEU:357	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:357	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ASP:358	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:358	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ASN:359	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:359	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ILE:360	  PROA
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:360	  PROA
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:360	  PROA
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:360	  PROA
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:360	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 THR:361	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 HSD:362	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:362	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 VAL:363	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:364	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:364	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:364	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLY:365	  PROA
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:365	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLY:366	  PROA
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:366	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLY:367	  PROA
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:367	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ASN:368	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:368	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:369	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:369	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:369	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:369	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:369	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:370	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:370	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:370	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:370	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:370	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 ILE:371	  PROA
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:371	  PROA
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:371	  PROA
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:371	  PROA
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:371	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 GLU:372	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:372	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:372	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 THR:373	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 HSD:374	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:374	  PROA
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:374	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LYS:375	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:375	  PROA
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:375	  PROA
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:375	  PROA
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:375	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 LEU:376	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:376	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 THR:377	  PROA
+psfgen) Warning: failed to set coordinate for atom OT1	 PHE:378	  PROA
+psfgen) Warning: failed to set coordinate for atom H	 PHE:378	  PROA
+psfgen) Warning: failed to set coordinate for atom HB3	 PHE:378	  PROA
+psfgen) reading coordinates from pdb file ../2_modpdb/proc.pdb for segment PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLN:307	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:307	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:307	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ILE:308	  PROC
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:308	  PROC
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:308	  PROC
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:308	  PROC
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:308	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 VAL:309	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 TYR:310	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 TYR:310	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:311	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:311	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:311	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:311	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:311	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:312	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:312	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:312	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 VAL:313	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ASP:314	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:314	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LEU:315	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:315	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 SER:316	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:316	  PROC
+psfgen) Warning: failed to set coordinate for atom HG	 SER:316	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:317	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:317	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:317	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:317	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:317	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 VAL:318	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 THR:319	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 SER:320	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:320	  PROC
+psfgen) Warning: failed to set coordinate for atom HG	 SER:320	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:321	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:321	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:321	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:321	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:321	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 CYS:322	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 CYS:322	  PROC
+psfgen) Warning: failed to set coordinate for atom HG	 CYS:322	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLY:323	  PROC
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:323	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 SER:324	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:324	  PROC
+psfgen) Warning: failed to set coordinate for atom HG	 SER:324	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LEU:325	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:325	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLY:326	  PROC
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:326	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ASN:327	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:327	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ILE:328	  PROC
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:328	  PROC
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:328	  PROC
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:328	  PROC
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:328	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 HSD:329	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:329	  PROC
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:329	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 HSD:330	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:330	  PROC
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:330	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:331	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:331	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:331	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:331	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:331	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:332	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:332	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:332	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLY:333	  PROC
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:333	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLY:334	  PROC
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:334	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLY:335	  PROC
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:335	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLN:336	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:336	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:336	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 VAL:337	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLU:338	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:338	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:338	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 VAL:339	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:340	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:340	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:340	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:340	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:340	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 SER:341	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:341	  PROC
+psfgen) Warning: failed to set coordinate for atom HG	 SER:341	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLU:342	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:342	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:342	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:343	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:343	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:343	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:343	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:343	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LEU:344	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:344	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ASP:345	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:345	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 PHE:346	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 PHE:346	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:347	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:347	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:347	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:347	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:347	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ASP:348	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:348	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ARG:349	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 ARG:349	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 ARG:349	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 ARG:349	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 VAL:350	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLN:351	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:351	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:351	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 SER:352	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:352	  PROC
+psfgen) Warning: failed to set coordinate for atom HG	 SER:352	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:353	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:353	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:353	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:353	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:353	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ILE:354	  PROC
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:354	  PROC
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:354	  PROC
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:354	  PROC
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:354	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLY:355	  PROC
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:355	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 SER:356	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:356	  PROC
+psfgen) Warning: failed to set coordinate for atom HG	 SER:356	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LEU:357	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:357	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ASP:358	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:358	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ASN:359	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:359	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ILE:360	  PROC
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:360	  PROC
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:360	  PROC
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:360	  PROC
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:360	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 THR:361	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 HSD:362	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:362	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 VAL:363	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:364	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:364	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:364	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLY:365	  PROC
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:365	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLY:366	  PROC
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:366	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLY:367	  PROC
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:367	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ASN:368	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:368	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:369	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:369	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:369	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:369	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:369	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:370	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:370	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:370	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:370	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:370	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 ILE:371	  PROC
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:371	  PROC
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:371	  PROC
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:371	  PROC
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:371	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 GLU:372	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:372	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:372	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 THR:373	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 HSD:374	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:374	  PROC
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:374	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LYS:375	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:375	  PROC
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:375	  PROC
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:375	  PROC
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:375	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 LEU:376	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:376	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 THR:377	  PROC
+psfgen) Warning: failed to set coordinate for atom OT1	 PHE:378	  PROC
+psfgen) Warning: failed to set coordinate for atom H	 PHE:378	  PROC
+psfgen) Warning: failed to set coordinate for atom HB3	 PHE:378	  PROC
+psfgen) reading coordinates from pdb file ../2_modpdb/proe.pdb for segment PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLN:307	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:307	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:307	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ILE:308	  PROE
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:308	  PROE
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:308	  PROE
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:308	  PROE
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:308	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 VAL:309	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 TYR:310	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 TYR:310	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:311	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:311	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:311	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:311	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:311	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:312	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:312	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:312	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 VAL:313	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ASP:314	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:314	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LEU:315	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:315	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 SER:316	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:316	  PROE
+psfgen) Warning: failed to set coordinate for atom HG	 SER:316	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:317	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:317	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:317	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:317	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:317	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 VAL:318	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 THR:319	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 SER:320	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:320	  PROE
+psfgen) Warning: failed to set coordinate for atom HG	 SER:320	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:321	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:321	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:321	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:321	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:321	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 CYS:322	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 CYS:322	  PROE
+psfgen) Warning: failed to set coordinate for atom HG	 CYS:322	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLY:323	  PROE
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:323	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 SER:324	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:324	  PROE
+psfgen) Warning: failed to set coordinate for atom HG	 SER:324	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LEU:325	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:325	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLY:326	  PROE
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:326	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ASN:327	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:327	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ILE:328	  PROE
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:328	  PROE
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:328	  PROE
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:328	  PROE
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:328	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 HSD:329	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:329	  PROE
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:329	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 HSD:330	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:330	  PROE
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:330	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:331	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:331	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:331	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:331	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:331	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:332	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:332	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:332	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLY:333	  PROE
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:333	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLY:334	  PROE
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:334	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLY:335	  PROE
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:335	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLN:336	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:336	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:336	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 VAL:337	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLU:338	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:338	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:338	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 VAL:339	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:340	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:340	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:340	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:340	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:340	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 SER:341	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:341	  PROE
+psfgen) Warning: failed to set coordinate for atom HG	 SER:341	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLU:342	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:342	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:342	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:343	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:343	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:343	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:343	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:343	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LEU:344	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:344	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ASP:345	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:345	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 PHE:346	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 PHE:346	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:347	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:347	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:347	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:347	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:347	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ASP:348	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:348	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ARG:349	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 ARG:349	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 ARG:349	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 ARG:349	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 VAL:350	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLN:351	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:351	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:351	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 SER:352	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:352	  PROE
+psfgen) Warning: failed to set coordinate for atom HG	 SER:352	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:353	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:353	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:353	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:353	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:353	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ILE:354	  PROE
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:354	  PROE
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:354	  PROE
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:354	  PROE
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:354	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLY:355	  PROE
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:355	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 SER:356	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:356	  PROE
+psfgen) Warning: failed to set coordinate for atom HG	 SER:356	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LEU:357	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:357	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ASP:358	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:358	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ASN:359	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:359	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ILE:360	  PROE
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:360	  PROE
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:360	  PROE
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:360	  PROE
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:360	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 THR:361	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 HSD:362	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:362	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 VAL:363	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:364	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:364	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:364	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLY:365	  PROE
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:365	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLY:366	  PROE
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:366	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLY:367	  PROE
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:367	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ASN:368	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:368	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:369	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:369	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:369	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:369	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:369	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:370	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:370	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:370	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:370	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:370	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 ILE:371	  PROE
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:371	  PROE
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:371	  PROE
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:371	  PROE
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:371	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 GLU:372	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:372	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:372	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 THR:373	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 HSD:374	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:374	  PROE
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:374	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LYS:375	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:375	  PROE
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:375	  PROE
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:375	  PROE
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:375	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 LEU:376	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:376	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 THR:377	  PROE
+psfgen) Warning: failed to set coordinate for atom OT1	 PHE:378	  PROE
+psfgen) Warning: failed to set coordinate for atom H	 PHE:378	  PROE
+psfgen) Warning: failed to set coordinate for atom HB3	 PHE:378	  PROE
+psfgen) reading coordinates from pdb file ../2_modpdb/prog.pdb for segment PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLN:307	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:307	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:307	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ILE:308	  PROG
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:308	  PROG
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:308	  PROG
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:308	  PROG
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:308	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 VAL:309	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 TYR:310	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 TYR:310	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:311	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:311	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:311	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:311	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:311	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:312	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:312	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:312	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 VAL:313	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ASP:314	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:314	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LEU:315	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:315	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 SER:316	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:316	  PROG
+psfgen) Warning: failed to set coordinate for atom HG	 SER:316	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:317	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:317	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:317	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:317	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:317	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 VAL:318	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 THR:319	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 SER:320	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:320	  PROG
+psfgen) Warning: failed to set coordinate for atom HG	 SER:320	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:321	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:321	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:321	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:321	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:321	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 CYS:322	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 CYS:322	  PROG
+psfgen) Warning: failed to set coordinate for atom HG	 CYS:322	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLY:323	  PROG
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:323	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 SER:324	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:324	  PROG
+psfgen) Warning: failed to set coordinate for atom HG	 SER:324	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LEU:325	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:325	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLY:326	  PROG
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:326	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ASN:327	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:327	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ILE:328	  PROG
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:328	  PROG
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:328	  PROG
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:328	  PROG
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:328	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 HSD:329	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:329	  PROG
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:329	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 HSD:330	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:330	  PROG
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:330	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:331	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:331	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:331	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:331	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:331	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:332	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:332	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:332	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLY:333	  PROG
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:333	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLY:334	  PROG
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:334	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLY:335	  PROG
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:335	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLN:336	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:336	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:336	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 VAL:337	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLU:338	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:338	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:338	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 VAL:339	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:340	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:340	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:340	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:340	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:340	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 SER:341	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:341	  PROG
+psfgen) Warning: failed to set coordinate for atom HG	 SER:341	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLU:342	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:342	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:342	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:343	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:343	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:343	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:343	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:343	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LEU:344	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:344	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ASP:345	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:345	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 PHE:346	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 PHE:346	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:347	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:347	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:347	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:347	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:347	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ASP:348	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:348	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ARG:349	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 ARG:349	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 ARG:349	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 ARG:349	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 VAL:350	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLN:351	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:351	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:351	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 SER:352	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:352	  PROG
+psfgen) Warning: failed to set coordinate for atom HG	 SER:352	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:353	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:353	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:353	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:353	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:353	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ILE:354	  PROG
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:354	  PROG
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:354	  PROG
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:354	  PROG
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:354	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLY:355	  PROG
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:355	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 SER:356	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:356	  PROG
+psfgen) Warning: failed to set coordinate for atom HG	 SER:356	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LEU:357	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:357	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ASP:358	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:358	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ASN:359	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:359	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ILE:360	  PROG
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:360	  PROG
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:360	  PROG
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:360	  PROG
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:360	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 THR:361	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 HSD:362	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:362	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 VAL:363	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:364	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:364	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:364	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLY:365	  PROG
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:365	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLY:366	  PROG
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:366	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLY:367	  PROG
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:367	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ASN:368	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:368	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:369	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:369	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:369	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:369	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:369	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:370	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:370	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:370	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:370	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:370	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 ILE:371	  PROG
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:371	  PROG
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:371	  PROG
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:371	  PROG
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:371	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 GLU:372	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:372	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:372	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 THR:373	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 HSD:374	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:374	  PROG
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:374	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LYS:375	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:375	  PROG
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:375	  PROG
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:375	  PROG
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:375	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 LEU:376	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:376	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 THR:377	  PROG
+psfgen) Warning: failed to set coordinate for atom OT1	 PHE:378	  PROG
+psfgen) Warning: failed to set coordinate for atom H	 PHE:378	  PROG
+psfgen) Warning: failed to set coordinate for atom HB3	 PHE:378	  PROG
+psfgen) reading coordinates from pdb file ../2_modpdb/proi.pdb for segment PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLN:307	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:307	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:307	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ILE:308	  PROI
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:308	  PROI
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:308	  PROI
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:308	  PROI
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:308	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 VAL:309	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 TYR:310	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 TYR:310	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:311	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:311	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:311	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:311	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:311	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:312	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:312	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:312	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 VAL:313	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ASP:314	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:314	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LEU:315	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:315	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 SER:316	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:316	  PROI
+psfgen) Warning: failed to set coordinate for atom HG	 SER:316	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:317	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:317	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:317	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:317	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:317	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 VAL:318	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 THR:319	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 SER:320	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:320	  PROI
+psfgen) Warning: failed to set coordinate for atom HG	 SER:320	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:321	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:321	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:321	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:321	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:321	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 CYS:322	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 CYS:322	  PROI
+psfgen) Warning: failed to set coordinate for atom HG	 CYS:322	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLY:323	  PROI
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:323	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 SER:324	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:324	  PROI
+psfgen) Warning: failed to set coordinate for atom HG	 SER:324	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LEU:325	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:325	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLY:326	  PROI
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:326	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ASN:327	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:327	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ILE:328	  PROI
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:328	  PROI
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:328	  PROI
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:328	  PROI
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:328	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 HSD:329	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:329	  PROI
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:329	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 HSD:330	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:330	  PROI
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:330	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:331	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:331	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:331	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:331	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:331	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:332	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:332	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:332	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLY:333	  PROI
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:333	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLY:334	  PROI
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:334	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLY:335	  PROI
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:335	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLN:336	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:336	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:336	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 VAL:337	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLU:338	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:338	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:338	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 VAL:339	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:340	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:340	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:340	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:340	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:340	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 SER:341	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:341	  PROI
+psfgen) Warning: failed to set coordinate for atom HG	 SER:341	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLU:342	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:342	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:342	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:343	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:343	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:343	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:343	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:343	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LEU:344	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:344	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ASP:345	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:345	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 PHE:346	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 PHE:346	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:347	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:347	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:347	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:347	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:347	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ASP:348	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:348	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ARG:349	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 ARG:349	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 ARG:349	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 ARG:349	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 VAL:350	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLN:351	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 GLN:351	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 GLN:351	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 SER:352	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:352	  PROI
+psfgen) Warning: failed to set coordinate for atom HG	 SER:352	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:353	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:353	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:353	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:353	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:353	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ILE:354	  PROI
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:354	  PROI
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:354	  PROI
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:354	  PROI
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:354	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLY:355	  PROI
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:355	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 SER:356	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 SER:356	  PROI
+psfgen) Warning: failed to set coordinate for atom HG	 SER:356	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LEU:357	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:357	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ASP:358	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 ASP:358	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ASN:359	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:359	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ILE:360	  PROI
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:360	  PROI
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:360	  PROI
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:360	  PROI
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:360	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 THR:361	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 HSD:362	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:362	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 VAL:363	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 PRO:364	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 PRO:364	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 PRO:364	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLY:365	  PROI
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:365	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLY:366	  PROI
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:366	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLY:367	  PROI
+psfgen) Warning: failed to set coordinate for atom HA3	 GLY:367	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ASN:368	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 ASN:368	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:369	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:369	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:369	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:369	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:369	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:370	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:370	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:370	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:370	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:370	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 ILE:371	  PROI
+psfgen) Warning: failed to set coordinate for atom HG13	 ILE:371	  PROI
+psfgen) Warning: failed to set coordinate for atom HD11	 ILE:371	  PROI
+psfgen) Warning: failed to set coordinate for atom HD12	 ILE:371	  PROI
+psfgen) Warning: failed to set coordinate for atom HD13	 ILE:371	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 GLU:372	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 GLU:372	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 GLU:372	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 THR:373	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 HSD:374	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 HSD:374	  PROI
+psfgen) Warning: failed to set coordinate for atom HE2	 HSD:374	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LYS:375	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LYS:375	  PROI
+psfgen) Warning: failed to set coordinate for atom HG3	 LYS:375	  PROI
+psfgen) Warning: failed to set coordinate for atom HD3	 LYS:375	  PROI
+psfgen) Warning: failed to set coordinate for atom HE3	 LYS:375	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 LEU:376	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 LEU:376	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 THR:377	  PROI
+psfgen) Warning: failed to set coordinate for atom OT1	 PHE:378	  PROI
+psfgen) Warning: failed to set coordinate for atom H	 PHE:378	  PROI
+psfgen) Warning: failed to set coordinate for atom HB3	 PHE:378	  PROI
+psfgen) Info: guessing coordinates for 1080 atoms (30 non-hydrogen)
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HG12 CG1 HG11
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HG2 CG HG1
+psfgen) Warning: failed to guess coordinate due to bad angle HD2 CD HD1
+psfgen) Warning: failed to guess coordinate due to bad angle HE2 CE HE1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: failed to guess coordinate due to bad angle HB2 CB HB1
+psfgen) Warning: poorly guessed coordinates for 465 atoms (0 non-hydrogen):
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:307	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:307	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:308	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 TYR:310	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:311	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:311	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:311	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:311	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:312	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:314	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:315	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:316	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:317	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:317	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:317	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:317	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:320	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:321	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:321	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:321	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:321	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 CYS:322	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:324	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:325	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:327	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:328	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:329	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:330	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:331	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:331	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:331	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:331	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:332	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:336	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:336	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:338	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:338	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:340	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:340	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:340	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:340	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:341	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:342	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:342	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:343	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:343	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:343	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:343	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:344	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:345	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 PHE:346	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:347	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:347	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:347	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:347	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:348	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ARG:349	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 ARG:349	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 ARG:349	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:351	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:351	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:352	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:353	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:353	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:353	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:353	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:354	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:356	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:357	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:358	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:359	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:360	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:362	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:364	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:368	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:369	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:369	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:369	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:369	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:370	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:370	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:370	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:370	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:371	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:372	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:372	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:374	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:375	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:375	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:375	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:375	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:376	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 PHE:378	  PROA
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:307	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:307	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:308	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 TYR:310	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:311	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:311	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:311	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:311	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:312	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:314	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:315	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:316	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:317	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:317	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:317	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:317	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:320	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:321	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:321	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:321	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:321	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 CYS:322	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:324	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:325	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:327	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:328	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:329	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:330	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:331	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:331	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:331	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:331	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:332	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:336	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:336	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:338	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:338	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:340	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:340	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:340	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:340	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:341	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:342	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:342	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:343	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:343	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:343	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:343	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:344	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:345	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 PHE:346	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:347	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:347	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:347	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:347	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:348	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ARG:349	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 ARG:349	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 ARG:349	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:351	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:351	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:352	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:353	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:353	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:353	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:353	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:354	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:356	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:357	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:358	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:359	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:360	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:362	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:364	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:368	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:369	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:369	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:369	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:369	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:370	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:370	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:370	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:370	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:371	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:372	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:372	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:374	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:375	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:375	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:375	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:375	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:376	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 PHE:378	  PROC
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:307	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:307	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:308	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 TYR:310	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:311	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:311	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:311	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:311	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:312	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:314	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:315	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:316	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:317	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:317	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:317	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:317	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:320	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:321	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:321	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:321	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:321	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 CYS:322	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:324	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:325	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:327	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:328	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:329	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:330	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:331	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:331	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:331	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:331	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:332	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:336	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:336	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:338	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:338	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:340	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:340	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:340	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:340	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:341	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:342	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:342	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:343	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:343	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:343	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:343	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:344	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:345	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 PHE:346	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:347	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:347	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:347	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:347	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:348	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ARG:349	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 ARG:349	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 ARG:349	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:351	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:351	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:352	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:353	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:353	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:353	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:353	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:354	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:356	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:357	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:358	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:359	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:360	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:362	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:364	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:368	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:369	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:369	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:369	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:369	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:370	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:370	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:370	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:370	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:371	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:372	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:372	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:374	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:375	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:375	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:375	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:375	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:376	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 PHE:378	  PROE
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:307	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:307	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:308	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 TYR:310	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:311	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:311	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:311	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:311	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:312	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:314	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:315	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:316	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:317	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:317	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:317	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:317	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:320	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:321	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:321	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:321	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:321	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 CYS:322	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:324	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:325	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:327	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:328	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:329	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:330	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:331	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:331	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:331	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:331	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:332	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:336	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:336	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:338	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:338	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:340	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:340	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:340	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:340	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:341	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:342	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:342	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:343	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:343	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:343	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:343	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:344	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:345	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 PHE:346	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:347	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:347	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:347	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:347	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:348	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ARG:349	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 ARG:349	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 ARG:349	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:351	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:351	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:352	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:353	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:353	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:353	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:353	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:354	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:356	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:357	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:358	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:359	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:360	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:362	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:364	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:368	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:369	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:369	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:369	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:369	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:370	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:370	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:370	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:370	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:371	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:372	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:372	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:374	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:375	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:375	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:375	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:375	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:376	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 PHE:378	  PROG
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:307	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:307	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:308	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 TYR:310	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:311	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:311	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:311	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:311	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:312	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:314	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:315	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:316	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:317	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:317	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:317	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:317	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:320	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:321	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:321	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:321	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:321	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 CYS:322	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:324	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:325	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:327	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:328	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:329	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:330	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:331	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:331	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:331	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:331	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:332	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:336	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:336	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:338	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:338	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:340	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:340	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:340	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:340	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:341	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:342	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:342	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:343	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:343	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:343	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:343	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:344	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:345	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 PHE:346	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:347	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:347	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:347	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:347	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:348	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ARG:349	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 ARG:349	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 ARG:349	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLN:351	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLN:351	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:352	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:353	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:353	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:353	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:353	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:354	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 SER:356	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:357	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASP:358	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:359	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:360	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:362	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 PRO:364	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 ASN:368	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:369	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:369	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:369	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:369	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:370	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:370	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:370	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:370	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG11	 ILE:371	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 GLU:372	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 GLU:372	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 HSD:374	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LYS:375	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HG1	 LYS:375	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HD1	 LYS:375	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HE1	 LYS:375	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 LEU:376	  PROI
+psfgen) Warning: poorly guessed coordinate for atom HB1	 PHE:378	  PROI
+psfgen) regenerating all angles
+psfgen) regenerating all dihedrals
+psfgen) Info: writing pdb file protein.pdb
+psfgen) Info: Atoms with guessed coordinates will have occupancy of 0.0.
+psfgen) Info: pdb file complete.
+psfgen) Info: writing psf file protein.psf
+psfgen) total of 5745 atoms
+psfgen) total of 5790 bonds
+psfgen) total of 10565 angles
+psfgen) total of 15415 dihedrals
+psfgen) total of 1030 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 365 cross-terms
+psfgen) Info: psf file complete.
+
+
+
+
+
+
+
+
+
+
+Info) VMD for MACOSXARM64, version 1.9.4a55 (October 19, 2021)
+Info) Exiting normally.
+vmd > 

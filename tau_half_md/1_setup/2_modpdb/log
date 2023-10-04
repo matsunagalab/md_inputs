@@ -1,0 +1,42 @@
+Info) VMD for MACOSXARM64, version 1.9.4a55 (October 19, 2021)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 10 CPUs, ISA dispatch enabled.
+Info) Using plugin pdb for structure file ../1_oripdb/5O3L.pdb
+Info) Using plugin pdb for coordinates from file ../1_oripdb/5O3L.pdb
+Info) Determining bond structure from distance search ...
+Info) Finished with coordinate file ../1_oripdb/5O3L.pdb.
+Info) Analyzing structure ...
+Info)    Atoms: 11360
+Info)    Bonds: 11468
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 730
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Fragments: 10   Protein: 10   Nucleic: 0
+0
+atomselect4
+180.1564178466797 140.65528869628906 145.87069702148438
+atomselect5
+Info) Opened coordinate file proa.pdb for writing.
+Info) Finished with coordinate file proa.pdb.
+atomselect6
+Info) Opened coordinate file proc.pdb for writing.
+Info) Finished with coordinate file proc.pdb.
+atomselect7
+Info) Opened coordinate file proe.pdb for writing.
+Info) Finished with coordinate file proe.pdb.
+atomselect8
+Info) Opened coordinate file prog.pdb for writing.
+Info) Finished with coordinate file prog.pdb.
+atomselect9
+Info) Opened coordinate file proi.pdb for writing.
+Info) Finished with coordinate file proi.pdb.
+Info) VMD for MACOSXARM64, version 1.9.4a55 (October 19, 2021)
+Info) Exiting normally.
+vmd > 
