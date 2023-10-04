@@ -4,8 +4,9 @@ from openmm import unit
 import sys
 
 # Load the topology and positions
-with open('system.pdb', 'r') as f:
-    pdb = app.PDBFile(f)
+#with open('system.pdb', 'r') as f:
+#    pdb = app.PDBFile(f)
+pdb = app.PDBFile('./1_setup/5_ionize/ionized.pdb')
 
 # Load the system
 with open('system.xml', 'r') as f:

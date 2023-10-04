@@ -58,8 +58,8 @@ topology = pdb.topology
 positions = pdb.positions
 system = psf.createSystem(params, nonbondedMethod=nonbondedMethod, nonbondedCutoff=nonbondedCutoff,
     constraints=constraints, rigidWater=rigidWater, ewaldErrorTolerance=ewaldErrorTolerance, hydrogenMass=hydrogenMass)
-with open('system.pdb', 'w') as f:
-    PDBFile.writeFile(pdb.topology, pdb.positions, f)
+#with open('system.pdb', 'w') as f:
+#    PDBFile.writeFile(pdb.topology, pdb.positions, f)
 with open("system.xml", mode="w") as file:
     file.write(XmlSerializer.serialize(system))
 system.addForce(MonteCarloBarostat(pressure, temperature, barostatInterval))
