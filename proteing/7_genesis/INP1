@@ -1,0 +1,52 @@
+[INPUT]
+grotopfile      = ../5_genion/topol.top
+grocrdfile      = ../5_genion/ions.gro
+groreffile      = ../5_genion/ions.gro
+rstfile         = ../6_genesis/run.rst  # restart file
+
+[OUTPUT]
+dcdfile         = eq1.dcd
+rstfile         = eq1.rst
+
+[ENERGY]
+forcefield       = GROAMBER
+electrostatic    = PME     # [CUTOFF,PME]
+switchdist       = 10.0    # switch distance
+cutoffdist       = 12.0    # cutoff distance
+pairlistdist     = 13.5    # pair-list distance
+vdw_force_switch = YES     # force switch option for van der Waals
+nonb_limiter     = YES
+
+[DYNAMICS]
+integrator       =   VVER   # [LEAP,VVER]
+nsteps           =   25000   # number of MD steps
+timestep         =  0.002   # timestep (ps)
+eneout_period    =     100   # energy output period
+crdout_period    =     100   # coordinates output period
+rstout_period    =   5000   # restart output period
+nbupdate_period  =     10   # nonbond update period
+
+[CONSTRAINTS]
+rigid_bond       = YES      # constraints all bonds involving hydrogen
+fast_water       = YES
+hydrogen_type    = MASS
+
+[ENSEMBLE]
+ensemble         = NVT      # [NVE,NVT,NPT,NPAT,NPgT]
+tpcontrol        = BUSSI    # [NO,BERENDSEN,BUSSI,LANGEVIN]
+temperature      = 298.15   # initial and target temperature (K)
+
+[BOUNDARY]
+type             = PBC      # [PBC, NOBC]
+
+[SELECTION]
+group1          = rno:4-34 and heavy
+#group1           = sid:PROA and heavy  # restraint group 1
+
+[RESTRAINTS]
+nfunctions       = 1        # number of functions
+function1        = POSI     # restraint function type
+direction1       = ALL      # direction [ALL,X,Y,Z]
+constant1        = 1.0      # force constant
+select_index1    = 1        # restrained groups
+

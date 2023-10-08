@@ -1,0 +1,58 @@
+[INPUT]
+grotopfile      = ../5_genion/topol.top
+grocrdfile      = ../5_genion/ions.gro
+groreffile      = ../5_genion/ions.gro
+rstfile         = eq2.rst  # restart file
+
+[OUTPUT]
+dcdfile = eq3.dcd
+rstfile = eq3.rst
+
+[ENERGY]
+forcefield       = GROAMBER
+electrostatic    = PME     # [CUTOFF,PME]
+switchdist       = 10.0    # switch distance
+cutoffdist       = 12.0    # cutoff distance
+pairlistdist     = 13.5    # pair-list distance
+vdw_force_switch = YES     # force switch option for van der Waals
+nonb_limiter     = YES
+
+[DYNAMICS]
+integrator        =   VRES  # [LEAP,VVER,VRES]
+nsteps            =  20000  # number of MD steps (50ps)
+timestep          = 0.0025  # timestep (2.5fs)
+eneout_period     =    400  # energy output period (1ps)
+crdout_period     =    400  # coordinates output period (1ps)
+rstout_period     =  20000  # restart output period
+nbupdate_period   =     10  # nonbond update period
+elec_long_period  =      2  # period of reciprocal space calculation
+thermostat_period =     10  # period of thermostat update
+barostat_period   =     10  # period of barostat update
+
+[CONSTRAINTS]
+rigid_bond       = YES      # constraints all bonds involving hydrogen
+fast_water       = YES
+hydrogen_type    = MASS
+
+[ENSEMBLE]
+ensemble         = NPT      # [NVE,NVT,NPT,NPAT,NPgT]
+tpcontrol        = BUSSI    # [NO,BERENDSEN,BUSSI,LANGEVIN]
+temperature      = 298.15   # initial and target temperature (K)
+pressure         = 1.0      # target pressure (atm)
+group_tp         = YES      # usage of group tempeature and pressure
+
+[BOUNDARY]
+type             = PBC      # [PBC, NOBC]
+
+[SELECTION]
+group1           = an:N or an:CA or an:C or an:O  # restraint group 1
+#group1          = rno:4-34 and heavy
+#group1           = sid:PROA and heavy  # restraint group 1
+
+[RESTRAINTS]
+nfunctions       = 1        # number of functions
+function1        = POSI     # restraint function type
+direction1       = ALL      # direction [ALL,X,Y,Z]
+constant1        = 1.0      # force constant
+select_index1    = 1        # restrained groups
+

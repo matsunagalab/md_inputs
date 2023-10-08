@@ -1,26 +1,34 @@
 [INPUT]
-grotopfile      = topol.top
-grocrdfile      = ions.gro
-groreffile      = ions.gro
+grotopfile      = ../5_genion/topol.top
+grocrdfile      = ../5_genion/ions.gro
+groreffile      = ../5_genion/ions.gro
 
 [ENERGY]
 forcefield      = GROAMBER
+electrostatic    = PME     # [CUTOFF,PME]
+switchdist       = 10.0    # switch distance
+cutoffdist       = 12.0    # cutoff distance
+pairlistdist     = 13.5    # pair-list distance
+vdw_force_switch = YES     # force switch option for van der Waals
+contact_check    = YES     # check atomic clash
 
 [OUTPUT]
-dcdfile         = em.dcd
-rstfile         = em.rst
+dcdfile         = run.dcd
+rstfile         = run.rst
 
 [MINIMIZE]
-nsteps          = 5000     # number of steps
-eneout_period   = 500      # energy output period
-crdout_period   = 500      # coordinates output period
-rstout_period   = 5000     # restart output period
+method          = SD      # [SD] or [LBFGS]
+nsteps          = 1000     # number of steps
+eneout_period   = 10      # energy output period
+crdout_period   = 10      # coordinates output period
+rstout_period   = 10     # restart output period
+nbupdate_period = 10    # nonbond update period
 
 [BOUNDARY]
 type            = PBC      # [PBC,NOBC]
-box_size_x      = 100.22     # box size (x) in [PBC]
-box_size_y      = 100.22     # box size (y) in [PBC]
-box_size_z      = 100.22     # box size (z) in [PBC]
+box_size_x      = 85.9984     # box size (x) in [PBC]
+box_size_y      = 85.9984     # box size (y) in [PBC]
+box_size_z      = 85.9984     # box size (z) in [PBC]
 
 [SELECTION]
 group1          = rno:4-34 and heavy
