@@ -18,7 +18,7 @@ rstfile         = run.rst
 
 [MINIMIZE]
 method          = SD      # [SD] or [LBFGS]
-nsteps          = 1000     # number of steps
+nsteps          = 3000     # number of steps
 eneout_period   = 10      # energy output period
 crdout_period   = 10      # coordinates output period
 rstout_period   = 10     # restart output period
