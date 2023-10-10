@@ -26,9 +26,9 @@ nbupdate_period = 10    # nonbond update period
 
 [BOUNDARY]
 type            = PBC      # [PBC,NOBC]
-box_size_x      = 85.9984     # box size (x) in [PBC]
-box_size_y      = 85.9984     # box size (y) in [PBC]
-box_size_z      = 85.9984     # box size (z) in [PBC]
+box_size_x      = 105.00   # box size (x) in [PBC]
+box_size_y      = 105.00   # box size (y) in [PBC]
+box_size_z      = 105.00   # box size (z) in [PBC]
 
 [SELECTION]
 group1          = rno:4-34 and heavy
