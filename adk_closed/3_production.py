@@ -39,6 +39,7 @@ print('Building system...')
 system.addForce(mm.openmm.MonteCarloBarostat(pressure, temperature, barostatInterval))
 integrator = mm.openmm.LangevinMiddleIntegrator(temperature, friction, dt)
 integrator.setConstraintTolerance(constraintTolerance)
+integrator.setRandomNumberSeed(283)
 simulation = app.Simulation(pdb.topology, system, integrator, platform, platformProperties)
 #simulation.context.setPositions(pdb.positions)
 
