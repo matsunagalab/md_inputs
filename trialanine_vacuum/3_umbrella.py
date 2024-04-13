@@ -28,15 +28,35 @@ steps = 100000000 # 100 ns
 platform = mm.openmm.Platform.getPlatformByName('OpenCL')
 platformProperties = {'Precision': 'single'}
 
-dcdReporter = app.DCDReporter('3_production.dcd', 1000)
+dcdReporter = app.DCDReporter('3_umbrella.dcd', 1000)
 dataReporter = app.StateDataReporter(sys.stdout, 1000, totalSteps=steps,
     step=True, speed=True, progress=True, potentialEnergy=True, temperature=True, separator='\t')
-#checkpointReporter = app.CheckpointReporter('3_production.chk', 10000)
+#checkpointReporter = app.CheckpointReporter('3_umbrella.chk', 10000)
 
 # Prepare simulation object
 print('Building system...')
+
+## Positional restraints
+k = 50.0 * unit.kilojoule_per_mole/unit.angstroms**2  # force constant
+force = mm.CustomExternalForce("k*((x-x0)^2 + (y-y0)^2 + (z-z0)^2)")
+force.addGlobalParameter("k", k)
+force.addPerParticleParameter("x0")
+force.addPerParticleParameter("y0")
+force.addPerParticleParameter("z0")
+
+c_atom_index = 14
+n_atom_index = 26
+
+force.addParticle(c_atom_index, [0.0 * unit.nanometers, 0.0 * unit.nanometers, 0.0 * unit.nanometers])
+force.addParticle(n_atom_index, [0.0 * unit.nanometers, 0.0 * unit.nanometers, 0.5 * unit.nanometers])
+
+system.addForce(force)
+
+## integrator
 integrator = mm.openmm.LangevinMiddleIntegrator(temperature, friction, dt)
 #integrator.setConstraintTolerance(constraintTolerance)
+
+## create simulation
 simulation = app.Simulation(pdb.topology, system, integrator, platform, platformProperties)
 #simulation.context.setPositions(pdb.positions)
 
@@ -50,5 +70,5 @@ simulation.reporters.append(dataReporter)
 simulation.currentStep = 0
 simulation.step(steps)
 
-simulation.saveState("3_production.xml")
+simulation.saveState("3_umbrella.xml")
 
