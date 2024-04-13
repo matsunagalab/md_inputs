@@ -3,6 +3,7 @@ import openmm as mm
 import openmm.app as app
 from openmm import unit
 import sys
+import numpy as np
 
 pdbfile = 'ala9.pdb'
 
@@ -62,9 +63,51 @@ def prepare_protein(pdb_file, ignore_missing_residues=True, ignore_terminal_miss
     fixer.addMissingHydrogens(ph)  # add missing hydrogens
     return fixer
 
+def orient_molecule(modeller):
+    # Extract the positions as a numpy array
+    positions = np.array([[atom.x, atom.y, atom.z] for atom in modeller.positions])
+
+    # Find the indices of the N-terminal C atom and C-terminal N atom
+    n_terminal_c_atom_index = 14
+    c_terminal_n_atom_index = 96
+
+    # Get the positions of the N-terminal C and C-terminal N atoms
+    c_atom_position = positions[n_terminal_c_atom_index]
+    n_atom_position = positions[c_terminal_n_atom_index]
+
+    # Translate the molecule to place the N-terminal C at the origin
+    translation_vector = -c_atom_position
+    positions += translation_vector
+
+    # Align the C-terminal N atom along the z-axis
+    n_atom_position_translated = positions[c_terminal_n_atom_index]
+    z_axis = np.array([0.0, 0.0, 1.0])
+    norm_vector = n_atom_position_translated / np.linalg.norm(n_atom_position_translated)
+    axis = np.cross(norm_vector, z_axis)
+    angle = np.arccos(np.clip(np.dot(norm_vector, z_axis), -1.0, 1.0))
+
+    # Rodrigues' rotation formula
+    K = np.array([[0, -axis[2], axis[1]],
+                  [axis[2], 0, -axis[0]],
+                  [-axis[1], axis[0], 0]])
+    rotation_matrix = np.eye(3) + np.sin(angle) * K + (1 - np.cos(angle)) * np.dot(K, K)
+
+    # Apply rotation
+    rotated_positions = np.dot(positions, rotation_matrix.T) * 10.0
+
+    # Convert numpy array back to a list of Vec3 for OpenMM
+    modeller.positions = [mm.Vec3(x, y, z) for x, y, z in rotated_positions]
 
 # Load the PDB structure
 fixer = prepare_protein(pdbfile, ignore_missing_residues=False, ph=7.0)
+
+# Now you can continue with saving the system
+#with open('oriented_system.pdb', 'w') as f:
+#    app.PDBFile.writeFile(modeller.topology, modeller.positions, f)
+
+# And also save the system configuration as before
+#with open('system.xml', 'w') as f:
+#    f.write(mm.openmm.XmlSerializer.serialize(system))
 
 # Solvate
 modeller = app.Modeller(fixer.topology, fixer.positions)
@@ -72,13 +115,16 @@ forcefield = app.ForceField('amber14-all.xml')
 #forcefield = app.ForceField('amber14-all.xml', 'amber14/tip3pfb.xml')
 #modeller.addSolvent(forcefield, padding=1.0 * unit.nanometers, ionicStrength=0.15 * unit.molar)
 
+# Apply the orientation function
+orient_molecule(modeller)
+
 # Save topology and positions
 with open('system.pdb', 'w') as f:
     app.PDBFile.writeFile(modeller.topology, modeller.positions, f)
 
 # System Configuration
-nonbondedMethod = app.CutoffNonPeriodic
-nonbondedCutoff = 2.0*unit.nanometers
+nonbondedMethod = app.NoCutoff
+nonbondedCutoff = 3.0*unit.nanometers
 constraints = None
 rigidWater = True
 hydrogenMass = 1.0*unit.amu
