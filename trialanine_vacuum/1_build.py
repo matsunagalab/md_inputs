@@ -69,7 +69,7 @@ def orient_molecule(modeller):
 
     # Find the indices of the N-terminal C atom and C-terminal N atom
     n_terminal_c_atom_index = 14
-    c_terminal_n_atom_index = 26
+    c_terminal_n_atom_index = 16
 
     # Get the positions of the N-terminal C and C-terminal N atoms
     c_atom_position = positions[n_terminal_c_atom_index]
