@@ -84,13 +84,15 @@ def orient_molecule(modeller):
     z_axis = np.array([0.0, 0.0, 1.0])
     norm_vector = n_atom_position_translated / np.linalg.norm(n_atom_position_translated)
     axis = np.cross(norm_vector, z_axis)
+    axis = axis / np.linalg.norm(axis)
     angle = np.arccos(np.clip(np.dot(norm_vector, z_axis), -1.0, 1.0))
 
     # Rodrigues' rotation formula
     K = np.array([[0, -axis[2], axis[1]],
                   [axis[2], 0, -axis[0]],
                   [-axis[1], axis[0], 0]])
-    rotation_matrix = np.eye(3) + np.sin(angle) * K + (1 - np.cos(angle)) * np.dot(K, K)
+    
+    rotation_matrix = np.cos(angle) * np.eye(3) + np.sin(angle) * K + (1 - np.cos(angle)) * np.outer(axis, axis)
 
     # Apply rotation
     rotated_positions = np.dot(positions, rotation_matrix.T) * 10.0
