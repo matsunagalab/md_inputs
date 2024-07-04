@@ -1,0 +1,47 @@
+Info) VMD for MACOSXARM64, version 1.9.4a57 (April 27, 2022)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 10 CPUs, ISA dispatch enabled.
+Info) Dynamically loaded 1 plugins in directory:
+Info) /Applications/VMD 1.9.4.app/Contents/vmd/plugins/MACOSXARM64/molfile
+2.0
+psfgen) clearing structure, preserving topology and aliases
+psfgen) reading topology file ../toppar/top_all36_prot.rtf
+
+psfgen) >>>>>>>>CHARMM36 All-Hydrogen Topology File for Proteins <<<<<<
+psfgen) >>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>>>>> May 2011 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen)  All comments to the CHARMM web site: www.charmm.org
+psfgen)              parameter set discussion forum
+psfgen) 
+psfgen) Created by CHARMM version 36 1
+psfgen) cross-term entries present in topology definitions
+psfgen) building segment PROA
+psfgen) reading residues from pdb file ../2_modpdb/prot.pdb
+psfgen) extracted 1 residues from pdb file
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) reading coordinates from pdb file ../2_modpdb/prot.pdb for segment PROA
+psfgen) Info: guessing coordinates for 0 atoms (0 non-hydrogen)
+psfgen) regenerating all angles
+psfgen) regenerating all dihedrals
+psfgen) Info: writing pdb file protein.pdb
+psfgen) Info: pdb file complete.
+psfgen) Info: writing psf file protein.psf
+psfgen) total of 22 atoms
+psfgen) total of 21 bonds
+psfgen) total of 36 angles
+psfgen) total of 41 dihedrals
+psfgen) total of 4 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 1 cross-terms
+psfgen) Info: psf file complete.
+Info) VMD for MACOSXARM64, version 1.9.4a57 (April 27, 2022)
+Info) Exiting normally.
+vmd > 

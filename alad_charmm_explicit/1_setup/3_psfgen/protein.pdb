@@ -1,0 +1,24 @@
+REMARK original generated coordinate pdb file
+ATOM      1  CL  ALADX   1      -2.573  -1.044   0.228  1.00  0.00      PROA  
+ATOM      2  HL1 ALADX   1      -3.014  -1.993   0.601  1.00  0.00      PROA  
+ATOM      3  HL2 ALADX   1      -2.925  -0.868  -0.810  1.00  0.00      PROA  
+ATOM      4  HL3 ALADX   1      -2.911  -0.210   0.879  1.00  0.00      PROA  
+ATOM      5  CLP ALADX   1      -1.095  -1.146   0.255  1.00  0.00      PROA  
+ATOM      6  OL  ALADX   1      -0.538  -2.165   0.641  1.00  0.00      PROA  
+ATOM      7  NL  ALADX   1      -0.418  -0.070  -0.155  1.00  0.00      PROA  
+ATOM      8  HL  ALADX   1      -0.882   0.764  -0.443  1.00  0.00      PROA  
+ATOM      9  CA  ALADX   1       1.021  -0.017  -0.187  1.00  0.00      PROA  
+ATOM     10  HA  ALADX   1       1.411  -0.489   0.706  1.00  0.00      PROA  
+ATOM     11  CB  ALADX   1       1.585  -0.700  -1.453  1.00  0.00      PROA  
+ATOM     12  HB1 ALADX   1       1.183  -0.217  -2.369  1.00  0.00      PROA  
+ATOM     13  HB2 ALADX   1       2.693  -0.657  -1.480  1.00  0.00      PROA  
+ATOM     14  HB3 ALADX   1       1.278  -1.769  -1.465  1.00  0.00      PROA  
+ATOM     15  CRP ALADX   1       1.430   1.442  -0.154  1.00  0.00      PROA  
+ATOM     16  OR  ALADX   1       0.621   2.326  -0.426  1.00  0.00      PROA  
+ATOM     17  NR  ALADX   1       2.697   1.727   0.208  1.00  0.00      PROA  
+ATOM     18  HR  ALADX   1       3.335   0.997   0.432  1.00  0.00      PROA  
+ATOM     19  CR  ALADX   1       3.177   3.087   0.282  1.00  0.00      PROA  
+ATOM     20  HR1 ALADX   1       4.244   3.110   0.595  1.00  0.00      PROA  
+ATOM     21  HR2 ALADX   1       2.583   3.674   1.020  1.00  0.00      PROA  
+ATOM     22  HR3 ALADX   1       3.092   3.589  -0.709  1.00  0.00      PROA  
+END
