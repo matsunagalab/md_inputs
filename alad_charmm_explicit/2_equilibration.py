@@ -43,12 +43,12 @@ barostatInterval = 25
 steps = 250000
 
 # Linux with GPU
-#platform = Platform.getPlatformByName('CUDA')
-#platformProperties = {'Precision': 'mixed'}
+platform = Platform.getPlatformByName('CUDA')
+platformProperties = {'Precision': 'mixed'}
 
 # Mac
-platform = Platform.getPlatformByName('OpenCL')
-platformProperties = {'Precision': 'single'}
+#platform = Platform.getPlatformByName('OpenCL')
+#platformProperties = {'Precision': 'single'}
 
 dcdReporter = DCDReporter('2_equilibration.dcd', 2500)
 dataReporter = StateDataReporter(sys.stdout, 2500, totalSteps=steps,
