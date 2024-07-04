@@ -6,7 +6,7 @@ Equilibration (NPTでの平衡化、 1 ns)
 python 2_equilibration.py
 ```
 
-Production (NVTでのプロダクション、 1 ns)
+Production (NPTでのプロダクション、 1 microsec)
 
 ```shell
 python 3_production.py
